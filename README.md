@@ -10,6 +10,7 @@ This project demonstrates a real-time data processing pipeline using Apache Kafk
 **Kafka Producer ───▶ Kafka Topic (input_topic) ───▶ Flink Job ───▶ Kafka Topic (output_topic) ───▶ Kafka Consumer**
 
 **COMPONENTS EXPLAINED:**
+
 **1. KAFKA PRODUCCER - DATA GENERATOR**
   * sends product data (in JSON format) to Kafka topic input_topic.
   * Each message contains fields like title, price, currency, and url.
