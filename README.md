@@ -15,7 +15,7 @@ This project demonstrates a real-time data processing pipeline using Apache Kafk
   * sends product data (in JSON format) to Kafka topic input_topic.
   * Each message contains fields like title, price, currency, and url.
 
-**2. FLINK STREAMING JOb: DATA FILTER:**
+**2. FLINK STREAMING JOB: DATA FILTER:**
    * Reads data from input_topic using the Kafka connector.
    * Filters records where price > 500.
    * Writes the filtered results to output_topic.
