@@ -2,7 +2,8 @@ import os
 from pyflink.datastream import StreamExecutionEnvironment
 from pyflink.table import StreamTableEnvironment, EnvironmentSettings
 
-os.environ['FLINK_HOME'] = r'C:\flink-2.0.0'
+os.environ['FLINK_HOME'] = r'C:\flink-1.19.0'
+'
 
 env = StreamExecutionEnvironment.get_execution_environment()
 settings = EnvironmentSettings.new_instance().in_streaming_mode().build()
