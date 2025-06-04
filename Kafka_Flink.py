@@ -48,4 +48,4 @@ table_env.execute_sql("""
     SELECT *
     FROM input_table
     WHERE price > 500
-""").wait()
+""")
