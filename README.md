@@ -6,6 +6,7 @@ This project demonstrates a real-time data processing pipeline using Apache Kafk
 **Kafka Consumer** — reads and displays the filtered results from the output topic.
 
 **PIPELINE FLOW:**
+
 **Kafka Producer ───▶ Kafka Topic (input_topic) ───▶ Flink Job ───▶ Kafka Topic (output_topic) ───▶ Kafka Consumer
 [raw data]                        [filter: price > 500]                     [filtered data]**
 
